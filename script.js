@@ -6,7 +6,7 @@
 var namaPertama = 'Aceng';
 var namaBelakang = 'Fikri';
 
-var namaLengkap = namaPertama + '' + namaBelakang;
+var namaLengkap = namaPertama + ' ' + namaBelakang;
 console.log(namaPertama);
 console.log(namaBelakang);
 console.log(namaLengkap);
