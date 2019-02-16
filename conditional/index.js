@@ -25,22 +25,23 @@ if (umurAceng <= umurFikri) {
 
 // if, else if, else
 
-let nilai = 72;
+let nilai = 100;
+let name = 'Aceng';
 
-if (nilai >= 90) {
-  console.log('selamat! kamu mendapatkan nilai A');
+if (nilai >= 90 && nilai >= 100) {
+  console.log(`selamat ${name}! kamu mendapatkan nilai A`);
   
 } else if (nilai >= 70 && nilai < 90) {
-  console.log('selamat! kamu mendapatkan nilai B');
+  console.log(`selamat ${name}! kamu mendapatkan nilai B`);
   
 } else if (nilai >= 60 && nilai < 70 ) {
-  console.log('selamat! kamu mendapatkan nilai C');
+  console.log(`selamat ${name}! kamu mendapatkan nilai C`);
   
 } else if (nilai >= 40 && nilai < 60) {
-  console.log('selamat! kamu mendapatkan nilai D');
+  console.log(`selamat ${name}! kamu mendapatkan nilai D`);
   
 } else {
-  console.log('maaf, kamu harus ngulang kembali. nilai kamu E');
+  console.log(`maaf ${name}, kamu harus ngulang kembali. nilai kamu E`);
   
 }
 
