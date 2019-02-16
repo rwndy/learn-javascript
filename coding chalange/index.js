@@ -17,7 +17,7 @@ console.log(`tinggi mang Fikri: ${heightFikri}`);
 console.log(`BMI mang aceng: ${bmiAceng}`);
 console.log(`BMI mang Fikri: ${bmiFikri}`);
 
-console.log(`Is Aceng's BMI higher than Fikri's true? ${heigher}`);
+console.log(`Is Aceng's BMI higher than Fikri's? ${heigher}`);
 
 
 
