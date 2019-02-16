@@ -23,3 +23,24 @@ if (umurAceng <= umurFikri) {
   
 }
 
+// if, else if, else
+
+let nilai = 72;
+
+if (nilai >= 90) {
+  console.log('selamat! kamu mendapatkan nilai A');
+  
+} else if (nilai >= 70 && nilai < 90) {
+  console.log('selamat! kamu mendapatkan nilai B');
+  
+} else if (nilai >= 60 && nilai < 70 ) {
+  console.log('selamat! kamu mendapatkan nilai C');
+  
+} else if (nilai >= 40 && nilai < 60) {
+  console.log('selamat! kamu mendapatkan nilai D');
+  
+} else {
+  console.log('maaf, kamu harus ngulang kembali. nilai kamu E');
+  
+}
+
