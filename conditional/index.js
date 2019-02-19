@@ -62,3 +62,19 @@ let firstCheck = false,
 secondCheck = false, 
 access = firstCheck ? 'Access denied' : secondCheck ? 'Access denied' : 'Access granted'; 
 console.log(access);
+
+let job = 'guru';
+switch (job) {
+  case 'guru':
+    console.log(`${name} adalah seorang guru yang mengajari coding kepada anak-anak`);
+    break;
+  case 'designer':
+    console.log(`${name} adalah seorang designer yang mengajari design produk kepada anak-anak`);
+    break;
+  case 'supir grab':
+    console.log(`${name} adalah seorang supir grab`);
+    break;
+  default:
+    console.log(`${name} adalah seorang pengangguran sejati`);
+    break;
+}
