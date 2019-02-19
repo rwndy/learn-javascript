@@ -2,7 +2,6 @@
 ---
 Aceng and Fikri both play basketball in diffrent teams. in the latest 3 games,
 Aceng's team scored 89, 120, and 103 points, while Fikri's team scored 116, 94, and 123 points.
----
 
 1. Calculate the average score for each team
 2. Decide which team wins in average (highest average score), and print the winner to the console.
