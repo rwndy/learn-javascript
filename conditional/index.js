@@ -63,6 +63,19 @@ secondCheck = false,
 access = firstCheck ? 'Access denied' : secondCheck ? 'Access denied' : 'Access granted'; 
 console.log(access);
 
+// ternary operator AND dan OR
+
+let JumlahBarang = 500;
+let total;
+
+total = JumlahBarang >= 500 ? JumlahBarang * 100 :  JumlahBarang * 150;
+console.log(`total barang adalah ${total}`);
+
+
+
+// switch
+// Struktur switch hanya cocok untuk kondisi sederhana 
+// seperti mengecek apakah nilai variabel sama dengan string tertentu.
 let job = 'guru';
 switch (job) {
   case 'guru':
