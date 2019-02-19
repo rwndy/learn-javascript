@@ -45,3 +45,20 @@ if (nilai >= 90 && nilai >= 100) {
   
 }
 
+// ternary operator
+
+let umur = 18;
+
+umur >= 17 ? console.log(`selamat ${name} bisa membuat E-KTP`) : console.log(`Maaf ${name} kamu harus nunggu umur 18 tahun dulu`);
+
+let pesanMakan = 'nasi uduk';
+
+let goFood = pesanMakan === 'kelaperan' ? 'mesen burger' : 'nasi goreng';
+console.log(goFood);
+
+// ternary operator jamak
+
+let firstCheck = false,
+secondCheck = false, 
+access = firstCheck ? 'Access denied' : secondCheck ? 'Access denied' : 'Access granted'; 
+console.log(access);
