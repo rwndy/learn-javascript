@@ -105,7 +105,17 @@ const nilai = function(...penilaian) {
 
 console.log(nilai(1, 2, 3, 4, 5));
 
+// function scope dan global
 
+const Global = 'ini variable global';
+
+function InivariableScope() {
+  const scope = 'ini function scope';
+  console.log(`scope: ${scope}`);
+} 
+
+InivariableScope();
+console.log(Global);
 
 
 
