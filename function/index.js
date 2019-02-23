@@ -95,3 +95,17 @@ const activity = function(job, name) {
 
 console.log(activity('teacher', 'Aceng'));
 
+const nilai = function(...penilaian) {
+  console.log(penilaian[0]);
+  console.log(penilaian[1]);
+  console.log(penilaian[2]);
+  console.log(penilaian[3]);
+  console.log(penilaian[4]);
+}
+
+console.log(nilai(1, 2, 3, 4, 5));
+
+
+
+
+
