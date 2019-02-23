@@ -63,3 +63,35 @@ for (let value of Salam) {
   console.log(value);
   
 }
+
+// function Statement dan expression
+
+// ini adalah function expression.
+let penjumlahan = function(a, b) {
+  return a+b;
+}
+
+console.log(`ini adalah penjumlahan 10 + 20 hasilnya ${penjumlahan(10, 20)}`);
+
+const pengurangan = function(a, b) {
+  return a-b;
+}
+
+console.log(`ini adalah pengurangan 20 - 10 dan hasilnya: ${pengurangan(20,10)}`);
+
+
+const activity = function(job, name) {
+  switch (job) {
+    case 'teacher':
+      return `${name} adalah seorang guru`;
+    
+    case 'designer':
+      return `${name} adalah seorang designer`;
+  
+    default:
+      return `${name} pengangguran sejati`;
+  }
+}
+
+console.log(activity('teacher', 'Aceng'));
+
