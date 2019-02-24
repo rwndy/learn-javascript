@@ -48,3 +48,11 @@ let motor = {
 console.log(`${motor.hidupkan()} motor siap berangkat`);
 
 
+let nasiGoreng = {
+  telor : '1 butir',
+  kecap : '250ml',
+  minyak : '250ml',
+  sajikan : (rasa) => { return rasa + 'nasi goreng sudah siap di makan'; }
+};
+
+console.log(nasiGoreng.sajikan('hmmm '));
