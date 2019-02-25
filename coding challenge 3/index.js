@@ -8,4 +8,11 @@ const AcengTip = (bill) => {
   }
 }
 
-console.log(`ini adalah bonus tip dari Aceng sebesar: ${AcengTip(324)}`);
+console.log(`ini adalah bonus tip dari Aceng sebesar: ${AcengTip(250)}`);
+
+let bills = [124, 48, 268];
+let tips = [AcengTip(bills[0]), AcengTip(bills[1]), AcengTip(bills[2])];
+let bonus = [bills[0] + tips[0],bills[1] + tips[1], bills[2] + tips[2]]
+console.log(tips);
+console.log(bonus);
+
