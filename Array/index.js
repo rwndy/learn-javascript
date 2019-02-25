@@ -7,3 +7,6 @@ console.log(urutan); // membuat array yang diisi nilainya dengan number
 //menampilkan panjang dari isi array
 console.log(fruits.length);
 console.log(urutan.length);
+
+let mix = [false, 'string', 22, ['array lagi', 33, true]]; //membuat array campuran dan didalam array ada array lagi
+console.log(mix);
