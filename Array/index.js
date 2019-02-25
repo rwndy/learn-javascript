@@ -10,3 +10,14 @@ console.log(urutan.length);
 
 let mix = [false, 'string', 22, ['array lagi', 33, true]]; //membuat array campuran dan didalam array ada array lagi
 console.log(mix);
+console.log(mix.length);
+
+mix.push('material'); //method push untuk menambahkan nilai pada array di belakang
+console.log(mix);
+mix.push(223);
+console.log(mix);
+
+mix.unshift('depan'); // mengisi nilai array dari depan.
+console.log(mix);
+
+console.log(`index no: ${mix.indexOf(22)}`);
