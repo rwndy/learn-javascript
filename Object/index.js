@@ -56,3 +56,11 @@ let nasiGoreng = {
 };
 
 console.log(nasiGoreng.sajikan('hmmm '));
+
+// for in untuk menampilkan isi properti dan method object
+
+let spek;
+
+for (spek in motor) {
+  console.log(motor[spek]);
+}
