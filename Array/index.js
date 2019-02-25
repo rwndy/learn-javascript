@@ -21,3 +21,6 @@ mix.unshift('depan'); // mengisi nilai array dari depan.
 console.log(mix);
 
 console.log(`index no: ${mix.indexOf(22)}`);
+
+console.log(mix.shift()); //menghapus nilai array yang di depan
+console.log(mix);
