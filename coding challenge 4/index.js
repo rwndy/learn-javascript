@@ -18,9 +18,17 @@ let Fikri = {
   }
 };
 
+if (Aceng.calculate > Fikri.calculate) {
+  console.log(`nilai BMI ${Aceng.fullname} lebih tinggi dari ${Fikri.fullName}`);
+} else if (Fikri.calculate > Aceng.calculate) {
+  console.log(`nilai BMI ${Fikri.fullName} lebih tinggi dari ${Aceng.fullname}`);
+} else {
+  console.log('nilainya sama');
+}
 
 
 
-console.log(Aceng.calculate());
-console.log(Fikri.calculate());
+
+console.log(`ini nilai BMI ${Aceng.fullname} ${Aceng.calculate()}`);
+console.log(`ini nilai BMI ${Fikri.fullName} ${Fikri.calculate()}`);
 console.log(Aceng, Fikri);
