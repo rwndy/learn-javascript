@@ -3,6 +3,7 @@ console.log(fruits); //membuat array yang diisi nilainya dengan string
 
 let urutan = [1, 2, 3, 4, 5, 6];
 console.log(urutan); // membuat array yang diisi nilainya dengan number
+urutan[4] = 10; //mengubah element array
 
 //menampilkan panjang dari isi array
 console.log(fruits.length);
@@ -24,3 +25,4 @@ console.log(`index no: ${mix.indexOf(22)}`);
 
 console.log(mix.shift()); //menghapus nilai array yang di depan
 console.log(mix);
+
