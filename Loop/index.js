@@ -14,3 +14,8 @@ let k = 0
 for (k; k <= 20; k = k+2) {
   console.log(`nomor urut: ${k}`);
 }
+
+let l = 100;
+for (l; l >= 0; l = l - 5) {
+  console.log(l*5);
+}
