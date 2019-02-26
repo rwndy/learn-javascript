@@ -64,3 +64,9 @@ let spek;
 for (spek in motor) {
   console.log(motor[spek]);
 }
+
+// membuat object baru
+let mieGoreng = new Object();
+mieGoreng.telor = '2 butir';
+mieGoreng.sayuran = 'cesim';
+console.log(mieGoreng);
