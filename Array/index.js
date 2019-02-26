@@ -26,3 +26,10 @@ console.log(`index no: ${mix.indexOf(22)}`);
 console.log(mix.shift()); //menghapus nilai array yang di depan
 console.log(mix);
 
+// array dua dimensi
+let matched = [['laki-laki', 'perempuan'], ['Bulan', 'matahari'], ['Aku', 'kamu']];
+console.log(matched);
+console.log(matched[0][1]); //index pertama mencari posisi element array & index kedua mencari posisi element array didalam array
+
+
+
