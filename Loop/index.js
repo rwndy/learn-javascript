@@ -19,3 +19,19 @@ let l = 100;
 for (l; l >= 0; l = l - 5) {
   console.log(l*5);
 }
+
+let m = 1;
+for (m; m >= 10; m++) {
+  if (m === 5) {
+    break;
+  }
+  console.log(`hello ${m + 1} `);
+}
+
+// perulangan pada array
+
+let person = ['aceng', 25, 'single'];
+
+for (let i = 0; i < person.length; i++) {
+  console.log(person[i]);
+}
