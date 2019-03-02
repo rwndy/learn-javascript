@@ -78,7 +78,12 @@ class Makanan  {
     this.JenisMakanan = 'Kuah';
     this.RasaMakanan = 'Pedes';
   }
+  sajikan() {
+    return 'makanan sudah siap';
+  }
 }
 
 let hidangan = new Makanan();
 console.log(hidangan.JenisMakanan, hidangan.RasaMakanan);
+console.log(hidangan.sajikan());
+
