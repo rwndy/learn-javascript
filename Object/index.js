@@ -70,3 +70,15 @@ let mieGoreng = new Object();
 mieGoreng.telor = '2 butir';
 mieGoreng.sayuran = 'cesim';
 console.log(mieGoreng);
+
+// OOP
+// membuat class pada OOP menggunakan constructor didalam class
+class Makanan  {
+  constructor() {
+    this.JenisMakanan = 'Kuah';
+    this.RasaMakanan = 'Pedes';
+  }
+}
+
+let hidangan = new Makanan();
+console.log(hidangan.JenisMakanan, hidangan.RasaMakanan);
