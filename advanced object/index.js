@@ -33,4 +33,18 @@ const Fikri = new Person('Fikri', 25, 'Designer');
 console.log(Fikri);
 console.log(`pekerjaan ${Fikri.name} adalah ${Fikri.job}`);
 
+//membuat method pada class
+
+class Motor {
+  constructor(merk, bensin) {
+    this.merk = merk;
+    this.bensin = bensin;
+  }
+
+  hidupkan() { return 'kendaraan hidup'; } //membuat method di luar constructor. tapi tetap didalam class
+}
+
+const MotorAceng = new Motor('Yamaha', 'Pertamax');
+console.log(MotorAceng.hidupkan());
+
 
