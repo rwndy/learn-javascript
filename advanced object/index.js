@@ -48,3 +48,15 @@ const MotorAceng = new Motor('Yamaha', 'Pertamax');
 console.log(MotorAceng.hidupkan());
 
 
+//primitiv hanya menyalin nilai dari sebuah variabel. seperti kakashi yang menyalin jurus lawannya
+//example
+
+let a = 23;
+let b = a;
+
+a = 50;
+
+console.log(`nilai a berubah menjadi : ${a} dari 23`);
+console.log(`nilai b menyalin nilai awal a menjadi ${b}`);
+
+
