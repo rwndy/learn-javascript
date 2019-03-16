@@ -54,6 +54,21 @@ function interviewQuestion(job) {
   }
 }
 
-interviewQuestion('designer') ('Aceng')
-interviewQuestion('teacher') ('Fikri')
-interviewQuestion('pengangguran') ('Joni')
+interviewQuestion('designer') ('Aceng');
+interviewQuestion('teacher') ('Fikri');
+interviewQuestion('pengangguran') ('Joni');
+
+//Immediately Invoked Function Expressions (IIFE)
+// membuat function anonym menjadi ekpresi dan langsung menjalankan fungsinya.
+// "()" itu menjadikan function deklarasi menjadi function ekspresi
+(function() {
+  let hi = 'hello world';
+  console.log(hi);
+}) ();
+
+//IIFE menggunakan argument
+
+(function(a, b) {
+  let penjumlahan = a+b;
+  return console.log(penjumlahan);
+}(10, 20));
